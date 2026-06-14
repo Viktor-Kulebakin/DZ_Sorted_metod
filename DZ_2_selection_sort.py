@@ -6,6 +6,7 @@ def selection_sort(arr):
             if arr[j] < arr[min_idx]:
                 min_idx = j
         arr[i], arr[min_idx] = arr[min_idx], arr[i]
+        return arr
 # Пример использования:
 arr = [64, 34, 25, 12, 22, 11, 90]
 selection_sort(arr)
